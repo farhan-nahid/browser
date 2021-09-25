@@ -3,6 +3,7 @@ setTimeout(() => {
   console.log("Hello World");
 }, 3500);
 
+// prompt
 document.getElementById("prompt").addEventListener("click", () => {
   const input = prompt("Enter a number");
   const number = Number(input);
