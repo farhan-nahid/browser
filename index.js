@@ -14,6 +14,7 @@ document.getElementById("prompt").addEventListener("click", () => {
   }
 });
 
+// confirm
 document.getElementById("confirm").addEventListener("click", () => {
   const isWant = confirm("Are You Sure?");
   if (isWant === true) {
