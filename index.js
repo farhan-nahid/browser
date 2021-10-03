@@ -1,9 +1,11 @@
 // set time out
-setTimeout(() => {
+
+/* setTimeout(() => {
   console.log("Hello World");
 }, 3500);
-
+ */
 // prompt
+
 document.getElementById("prompt").addEventListener("click", () => {
   const input = prompt("Enter a number");
   const number = Number(input);
@@ -15,11 +17,24 @@ document.getElementById("prompt").addEventListener("click", () => {
 });
 
 // confirm
+
 document.getElementById("confirm").addEventListener("click", () => {
   const isWant = confirm("Are You Sure?");
-  if (isWant === true) {
+  if (isWant) {
     document.getElementById("output").innerText = document.location.href;
   } else {
     document.getElementById("output").innerText = "Dure Giya Mor";
   }
 });
+
+// ----------------------------------------
+
+document.getElementById('submit').addEventListener('click',()=>{
+  const productNameInput = document.getElementById('product__name')
+  const productPriceInput = document.getElementById('product__price')
+  const productName = productNameInput.value
+  const productPrice = productPriceInput.value
+})
+
+
+// --------------------------------------------
