@@ -1,9 +1,9 @@
 // set time out
 
-/* setTimeout(() => {
+ setTimeout(() => {
   console.log("Hello World");
 }, 3500);
- */
+ 
 // prompt
 
 document.getElementById("prompt").addEventListener("click", () => {
